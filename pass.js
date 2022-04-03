@@ -2,7 +2,7 @@ function verificaLogin(){
     const email = document.querySelector('.email').value;
     const senha = document.querySelector('.senha').value;
     if(email == "aluno" && senha == "aluno"){
-            location.href = "http://caiossilva.github.io/Spotify-Web-Player/"
+            location.href = "Area do Aluno/index.html"
         }else{
                 alert("Erro! Dados Incorretos")
             }
