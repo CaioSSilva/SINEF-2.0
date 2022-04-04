@@ -35,6 +35,9 @@ body{
     border-top-left-radius: 15px ;
     border-bottom-left-radius: 15px;
 }
+.Registro p{
+    text-align: center;
+}
 .Registro button{
     width: 100px;
     background: transparent;
@@ -146,4 +149,48 @@ body{
     width: 150px;
     margin-top: 20%;
     margin-bottom: 50px;
+}
+@media screen and (max-width:700px) {
+    .content{
+        flex-direction: column;
+    }
+    .Login{
+        width: 95%;
+        height: 48%;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 15px;
+        justify-content: center;
+    }
+    .Login h1{
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    .Registro{
+        height: 48%;
+        width: 95%;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 15px;
+        justify-content: center;
+    }
+    .Registro h1{
+        font-size: 25px;
+    }
+    .Registro p{
+        font-size: 14px;
+    }
+    .fumec-logo{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .login-field h2{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .login-types img{
+        width: 20px;
+        height: 20px;
+    }
+    .Login h2{
+        margin-top: 0px;
+    }
 }
