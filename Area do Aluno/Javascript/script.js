@@ -5,5 +5,3 @@ var ano = data.getFullYear();
 dataAtual = dia + '/' + mes + '/' + ano;
 
 document.querySelector(".data").innerHTML = dataAtual;
-
-console.log(dataAtual);
