@@ -99,7 +99,7 @@ body{
 /*ESTILO DO CONTEUDO*/
 .content{
     display: flex;
-    width: 100%;
+    width: 80%;
     background: #f0ecec;
 }
 .content-1{
