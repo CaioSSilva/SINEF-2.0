@@ -225,3 +225,53 @@ body{
 .bibliotecas-content img{
     width: 150px;
 }
+.menu-mobile{
+    display: none;
+}
+@media screen and (max-width:700px){
+    .my-profile{
+        display: none;
+    }
+    .content{
+        width: 100%;
+        flex-direction: column;
+    }
+    .content-1{
+        margin-top: 10%;
+    }
+    .content-1, .content-2{
+        width: 100%;
+    }
+    .menu-mobile{
+        top: 0;
+        position: fixed;
+        width: 100%;
+        height: 5%;
+        display: flex;
+        align-items: center;
+        background: #0299d4;
+        justify-content: space-between;
+    }
+    .menu-mobile div{
+        display: flex;
+        align-items: center;
+    }
+    .menu-mobile h1{
+        font-size: 16px;
+        margin-left: 10px;
+        color: white;
+    }
+    .menu-m-img{
+        margin-right: 5px;
+        gap: 10px;
+    }
+    .menu-m-img img{
+        width: 25px;
+    }
+    .aluno-m{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        margin-left: 5px;
+    }
+}
