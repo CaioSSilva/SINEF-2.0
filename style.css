@@ -7,7 +7,14 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background: #c5efff;
+    background: linear-gradient(270deg, #0299d4,#44B0DB, #66ccf4);
+    background-size: 400% 400%;
+    animation: cores 5s ease-in-out infinite;
+}
+@keyframes cores {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
 }
 .content{
     display: flex;
