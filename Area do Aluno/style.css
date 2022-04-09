@@ -67,18 +67,94 @@ body{
     margin-top: 20px;
     gap: 25px;
 }
+.academico-options{
+    display: none;
+    position:absolute;
+    left: 20%;
+    background: #0299d4;
+    
+}
+.academico-options ul{
+    padding: 5px;
+    list-style: none;
+}
+.academico-options li{
+    padding: 2px;
+    font-size: 14px;
+}
+.academico-options li:hover{
+    background: #007eaf;
+    cursor: pointer;
+}
+.didatico-options{
+    display: none;
+    position:absolute;
+    left: 20%;
+    background: #0299d4;
+    top: 60%;
+}
+.didatico-options ul{
+    padding: 5px;
+    list-style: none;
+}
+.didatico-options li{
+    padding: 2px;
+    font-size: 14px;
+}
+.didatico-options li:hover{
+    background: #007eaf;
+    cursor: pointer;
+}
+.eventos-options{
+    display: none;
+    position:absolute;
+    left: 20%;
+    background: #0299d4;
+    top: 75%;
+}
+.eventos-options ul{
+    padding: 5px;
+    list-style: none;
+}
+.eventos-options li{
+    padding: 2px;
+    font-size: 14px;
+}
+.eventos-options li:hover{
+    background: #007eaf;
+    cursor: pointer;
+}
+.financeiro-options{
+    display: none;
+    position:absolute;
+    left: 20%;
+    background: #0299d4;
+    top: 90%;
+}
+.financeiro-options ul{
+    padding: 5px;
+    list-style: none;
+}
+.financeiro-options li{
+    padding: 2px;
+    font-size: 14px;
+}
+.financeiro-options li:hover{
+    background: #007eaf;
+    cursor: pointer;
+}
 .menu h2{
     font-size: 14px;
 }
 .img-menu{
     width: 40px;
 }
-.menu div{
+.div-academico, .div-didatico, .div-eventos, .div-financeiro{
     width: 100%;
     padding-bottom: 10px;
     padding-top: 10px;
 }
-.menu div:hover{
+.div-academico:hover, .div-didatico:hover, .div-eventos:hover, .div-financeiro:hover{
     background: #007eaf;
     cursor: pointer;
 }
