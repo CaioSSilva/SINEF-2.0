@@ -69,8 +69,6 @@ body{
 }
 .academico-options{
     display: none;
-    position:absolute;
-    left: 20%;
     background: #0299d4;
     
 }
@@ -88,8 +86,6 @@ body{
 }
 .didatico-options{
     display: none;
-    position:absolute;
-    left: 20%;
     background: #0299d4;
 }
 .didatico-options ul{
@@ -106,8 +102,6 @@ body{
 }
 .eventos-options{
     display: none;
-    position:absolute;
-    left: 20%;
     background: #0299d4;
 }
 .eventos-options ul{
@@ -124,8 +118,6 @@ body{
 }
 .financeiro-options{
     display: none;
-    position:absolute;
-    left: 20%;
     background: #0299d4;
 }
 .financeiro-options ul{
