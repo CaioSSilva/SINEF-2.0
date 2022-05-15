@@ -194,3 +194,27 @@ body{
         margin-top: 0px;
     }
 }
+@media screen and (max-height: 700px) {
+    .fumec-logo{
+        width: 100px;
+    }
+    .Registro > h1{
+        font-size: 20px;
+    }
+    .Registro > p{
+        font-size: 12px;
+    }
+    .Registro button{
+        margin-bottom: 15px;
+    }
+    .Login h1{
+        margin-top: 5px;
+    }
+    .content{
+        height: auto;
+        margin-top: 5px;
+    }
+    .login-field{
+        margin-bottom: 5px;
+    }
+}
