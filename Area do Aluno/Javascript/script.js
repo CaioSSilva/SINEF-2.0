@@ -75,3 +75,19 @@ financeiroOptions.addEventListener('mouseover', () =>{
 financeiroOptions.addEventListener('mouseout', () =>{
     financeiroOptions.style.display = 'none'
 })
+//Mobile Menu
+const menuImg = document.getElementById('menu-img')
+const menuDrop = document.getElementById('menu-drop')
+const menuOptionsMobile = document.getElementById('menu-options-mobile')
+if(menuImg){
+    menuImg.addEventListener('click', () =>{
+        menuDrop.style.display= "block"
+        menuImg.style.display= "none"
+        menuOptionsMobile.style.display = "flex" 
+    })
+    menuDrop.addEventListener('click', () =>{
+        menuDrop.style.display= "none"
+        menuImg.style.display= "flex"
+        menuOptionsMobile.style.display = "none" 
+    })
+}
