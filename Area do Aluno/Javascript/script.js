@@ -91,3 +91,7 @@ if(menuImg){
         menuOptionsMobile.style.display = "none" 
     })
 }
+//Mobile menu Options Height
+console.log(window.outerHeight)
+const menuMobileHeight = document.getElementById('menu-mobile').clientHeight
+menuOptionsMobile.style.marginTop = (menuMobileHeight) + "px" 
